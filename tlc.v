@@ -6,9 +6,9 @@ module tlc(
     
     reg tempr=0,tempy=0,tempg=0;
     
-    integer count;//for how much time one led glow is decided by count variable
+    integer count=0;//for how much time one led glow is decided by count variable
     
-    reg [1:0]state=0;//00 01 10 11 and we have started with state red not start state here which is state 0, so when starts out tlc ,it starts with yellow signal
+    reg [1:0]state=3;//00 01 10 11 and we have started with state start
     parameter red=0,yellow=1,green=2,start=3;
     
      
