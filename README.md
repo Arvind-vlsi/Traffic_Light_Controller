@@ -5,4 +5,4 @@
   
   ## WAVEFORM
   
-  ![waveform](/Screenshot (50).png)
+  ![waveform](/Screenshot(50).png)
